@@ -26,7 +26,7 @@ app.post('/buy', async (req, res) =>{
         REFERENCE: 'pgtest_123456789',
         AMOUNT: req.body.airtime,
         CURRENCY: 'NAD',
-        RETURN_URL: 'http://localhost:3000/success',
+        RETURN_URL: 'https://buy-airtime-proto.herokuapp.com/success',
         TRANSACTION_DATE: '2018-01-01 12:00:00',
         LOCALE: 'en',
         COUNTRY: 'NAM',
