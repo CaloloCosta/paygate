@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: #2495d2;
+}
+
+label{
+    color: #444444;
+    font-size: 2rem;
+}
+form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+input{
+    height: 2.5rem;
+    outline: 0;
+    border: none;
+    padding: 1rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    width: 29.2rem;
+ 
+}
+select{
+    height: 4rem;
+    outline: 0;
+    border: none;
+    padding: 1rem;
+    width: 29.2rem;
+    margin-left: 9rem;
+    font-size: 2rem;
+
+}
+
+.fields{
+    margin-top: 2rem;
+}
+
+.btn{
+    background: #2495d2;
+    color: #ffffff;
+    height: 4rem;
+    font-size: 2rem;
+    margin: auto;
+    width: 45rem;
+    cursor: pointer;
+}
+
+
+a{
+    color: #2495d2;
+    font-style: none;
+}
