@@ -7,7 +7,7 @@ document.getElementById('form').addEventListener('submit', async e => {
         phone,
         airtime
     }
-    let result = await request('http://localhost:3000/buy',data)
+    let result = await request('https://buy-airtime-proto.herokuapp.com/buy',data)
     redirect(result)
 
 })
